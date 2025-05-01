@@ -23,5 +23,9 @@ h2, .fix {
 }
 
 ul, .custom-list {
-  color: red;
+  list-style-type: none;
+}
+
+.custom-list li::before {
+  content: ">>"
 }
