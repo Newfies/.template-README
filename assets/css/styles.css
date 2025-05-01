@@ -1,5 +1,15 @@
+/* Importing Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
+/* CSS For The Main Element */
+main {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* CSS For The A Element, For Removing The Blue Color and Underline On Links, etc. */
 a {
   text-decoration: none;
   color: inherit;
@@ -10,13 +20,11 @@ a:hover, a:active, a:focus, a:visited {
   color: inherit;  /* Inheriting the parent color for consistency */
 }
 
-main {
-  font-family: "Comfortaa", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+a .bold {
+  font-weight: 600;
 }
 
+/* Custom Header CSS, To Remove The Line Under The Text, Give Boldness, Etc. */
 .hd {
   font-family: "Comfortaa", sans-serif;
   font-optical-sizing: auto;
@@ -28,11 +36,11 @@ main {
   font-weight: 700;
 }
 
-h2, .fix {
+h1.noborder, h2.noborder, h3.noborder, h4.noborder, h5.noborder, h6.noborder {
   border-bottom: 0px;
 }
 
-ul, .custom-list {
+ul.custom-list {
   list-style-type: none;
 }
 
