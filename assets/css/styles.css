@@ -49,5 +49,5 @@ ul.custom-list {
 }
 
 .custom-list li::before {
-  content: "➤ "
+  content: "➤▻"
 }
