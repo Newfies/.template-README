@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover, a:active, a:focus, a:visited {
+  text-decoration: none;
+  color: inherit;  /* Inheriting the parent color for consistency */
+}
+
 main {
   font-family: "Comfortaa", sans-serif;
   font-optical-sizing: auto;
